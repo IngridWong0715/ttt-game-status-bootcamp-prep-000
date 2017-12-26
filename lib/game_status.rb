@@ -22,7 +22,6 @@ def won?(board)
     elsif combination.all? {|index| board[index] == "O"}
       return combination
     end
-    puts combination
   end
   return false
 end
