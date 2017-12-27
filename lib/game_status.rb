@@ -28,3 +28,4 @@ end
 
 def full?(board)
   return board.all? {|index| board[index] == "X" || board[index] == "O"}
+end
