@@ -37,8 +37,7 @@ def draw?(board)
     return false
   elsif won?(board) == true
     return true
-  end  
+  end
 end
-  # true if the board has not been won and is full
-  # false if the board is not won and the board is not full
-  #false if the board is won
+
+def over?(board)
